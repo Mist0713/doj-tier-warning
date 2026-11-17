@@ -1,0 +1,22 @@
+{
+  "name": "doj-tier-warning",
+  "version": "0.1.1",
+  "private": true,
+  "description": "DOJ difficulty warning userscript",
+  "scripts": {
+    "test": "node --test",
+    "release": "node scripts/release.mjs --bump patch",
+    "release:check": "node scripts/release.mjs --check"
+  },
+  "devDependencies": {
+    "happy-dom": "15.11.7"
+  },
+  "config": {
+    "githubRepository": "Mist0713/doj-tier-warning"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mist0713/doj-tier-warning.git"
+  },
+  "homepage": "https://github.com/Mist0713/doj-tier-warning"
+}
